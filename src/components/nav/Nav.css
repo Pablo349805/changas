@@ -1,0 +1,45 @@
+.body {
+    background-image: url('../img/fondo.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    margin: 0;
+    font-family: 'Segoe UI', sans-serif;
+}
+
+.portada {
+  width: 100%;
+  overflow: hidden;
+}
+
+.portada-img {
+  width: 100%;
+  height: auto;
+  display: block;
+  object-fit: cover;
+}
+
+.portada-image-container2 {
+    flex: 0 0 40%;
+    height: 100%;
+    overflow: visible;
+    position: relative;
+    z-index: 2;
+
+}
+
+.portada-image2 {
+    position: absolute;
+    top: -30px;
+    /* Ajustá según cuánto querés que sobresalga */
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 10;
+    /* Asegura que esté por encima de la card */
+    width: 250px;
+
+}
+.carousel-wrapper{
+  margin-bottom: 50px;
+}
