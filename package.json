@@ -2,7 +2,7 @@
   "name": "changas",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://pablo349805.github.io/changas",
+  "homepage": "https://github.com/Pablo349805/Changas2.git",
   "dependencies": {
     "@testing-library/dom": "^10.4.1",
     "@testing-library/jest-dom": "^6.9.1",
